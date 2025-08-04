@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,503;1,6..96,503&family=Montserrat:ital,wght@0,111;1,111&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,249;1,249&display=swap');
+@import "tailwindcss";
+
+@theme{
+  --font-bodoni: 'Bodoni Moda', sans-serif;
+  --font-montserrat: 'Montserrat', sans-serif;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
