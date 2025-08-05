@@ -22,7 +22,7 @@ const Product = () => {
   return (
     <section ref={ref} className="bg-gray-50 px-4">
       <motion.div
-        className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 items-center lg:px-20 text-center lg:text-left"
+        className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 items-center lg:px-20 text-center lg:text-left gap-3"
         initial="hidden"
         animate={inView ? "visible" : "hidden"}
         variants={containerVariants}

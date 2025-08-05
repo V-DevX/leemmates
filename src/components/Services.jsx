@@ -41,7 +41,7 @@ const Services = () => {
   const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.1 });
 
   return (
-    <section ref={ref} className="bg-gray-50 min-h-[30rem] py-20 px-4">
+    <section ref={ref} className="bg-gray-50 min-h-[30rem] py-10 px-4">
       <div className="mt-[5rem] mx-auto max-w-7xl">
         {/* Section Heading */}
         <div className="text-center mb-12">
