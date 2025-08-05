@@ -1,10 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,503;1,6..96,503&family=Montserrat:ital,wght@0,111;1,111&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,249;1,249&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,719;1,719&display=swap');
 @import "tailwindcss";
 
 @theme{
   --font-bodoni: 'Bodoni Moda', sans-serif;
   --font-montserrat: 'Montserrat', sans-serif;
+}
+
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 719;
+  font-style: normal;
 }
 
 @media (prefers-color-scheme: light) {

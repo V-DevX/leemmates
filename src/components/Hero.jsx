@@ -42,7 +42,7 @@ const Hero = () => {
           repeatType: "reverse",
           ease: "easeInOut",
         }}
-        className="absolute top-1/2 left-1/2 w-[2000px] max-w-none pointer-events-none z-[-1]"
+        className="absolute top-1/2 left-1/2 w-[800px] md:w-[2000px] max-w-none pointer-events-none z-[-1]"
       />
 
       {/* Bottom Gray Gradient Overlay */}
@@ -70,7 +70,7 @@ const Hero = () => {
             animate="animate"
             exit="exit"
             transition={{ duration: 0.5 }}
-            className="text-[2rem] md:text-[3rem] lg:text-[4rem] font-bold text-gray-700"
+            className="text-[1rem] md:text-[3rem] lg:text-[4rem] font-bold text-gray-700"
           >
             {taglines[current]}
           </motion.span>
