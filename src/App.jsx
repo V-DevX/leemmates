@@ -6,6 +6,7 @@ import About from "./components/About";
 import Vision from "./components/Vision";
 import Services from "./components/Services";
 import Product from "./components/Product";
+import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import ScrollToTop from "./components/ScrolltoTop";
 import Footer from "./components/Footer";
@@ -22,6 +23,7 @@ function App() {
         <Vision/>
         <Services />
         <Product/>
+        <Projects/>
         <Contact />
       </main>
       <ScrollToTop/>
