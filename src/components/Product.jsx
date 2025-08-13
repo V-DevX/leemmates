@@ -20,7 +20,7 @@ const Product = () => {
   const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.2 });
 
   return (
-    <section ref={ref} className="bg-gray-50 px-4">
+    <section ref={ref} className="bg-gray-50 px-4 py-10">
       <motion.div
         className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 items-center lg:px-20 text-center lg:text-left gap-3"
         initial="hidden"
@@ -29,10 +29,10 @@ const Product = () => {
       >
         {/* Left: Text Content */}
         <motion.div variants={itemVariants} className="flex flex-col items-center lg:items-start">
-          <p className="text-[1.5rem] md:text-[3rem] tracking-wide text-black font-bold mb-2 px-4">
+          <p className="text-[2.2rem] md:text-[3rem] tracking-wide text-black font-bold mb-2 px-4">
             Our Product
           </p>
-          <h2 className="font-montserrat text-[2rem] md:text-[4rem] font-bold bg-gradient-to-r from-blue-500 via-red-500 to-purple-500 bg-clip-text text-transparent mb-4 px-4">
+          <h2 className="text-[2rem] md:text-[4rem] font-bold bg-gradient-to-r from-blue-500 via-red-500 to-purple-500 bg-clip-text text-transparent mb-4 px-4">
             LeemPulse
           </h2>
           <p className="text-[1rem] md:text-[1.3rem] text-black leading-relaxed px-4">

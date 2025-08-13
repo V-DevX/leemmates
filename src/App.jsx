@@ -20,10 +20,10 @@ function App() {
       <main>
         <Hero />
         <About/>
-        <Vision/>
         <Services />
+        <Vision/>
+        <Projects />
         <Product/>
-        <Projects/>
         <Contact />
       </main>
       <ScrollToTop/>

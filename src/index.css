@@ -1,5 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,719;1,719&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,197;1,197&display=swap');
 @import "tailwindcss";
 
 @theme{
@@ -15,15 +14,4 @@
   font-style: normal;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}
+
